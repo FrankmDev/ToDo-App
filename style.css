@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: #222;
+  color: aliceblue;
+}
+#gallery {
+  border: 1px red solid;
+  width: 55vw;
+  height: 45vh;
+  background-image: url(https://i.pinimg.com/564x/83/69/c2/8369c2c16e5534881d8f9a4b4abdfef4.jpg);
+  background-size: cover;
+  background-position: center;
+}
