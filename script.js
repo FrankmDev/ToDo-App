@@ -32,4 +32,4 @@ reset.addEventListener("click", function () {
     "url('https://i.pinimg.com/564x/83/69/c2/8369c2c16e5534881d8f9a4b4abdfef4.jpg')";
 });
 
-console.log("Hola mundo");
+console.log("Hello World!");
