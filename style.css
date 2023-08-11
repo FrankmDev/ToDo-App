@@ -1,18 +1,39 @@
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  background-color: rgb(17, 28, 46);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+}
+
+.profile {
+  width: 5rem;
+  border-radius: 50%;
+}
+.header-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
-  flex-direction: column;
-  gap: 3rem;
-  background-color: #222;
-  color: aliceblue;
 }
-#gallery {
-  border: 1px red solid;
-  width: 55vw;
-  height: 45vh;
-  background-image: url(https://i.pinimg.com/564x/83/69/c2/8369c2c16e5534881d8f9a4b4abdfef4.jpg);
-  background-size: cover;
-  background-position: center;
+button {
+  cursor: pointer;
+  padding: 12%;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: rgb(24, 39, 66);
+  font-size: 2rem;
 }
