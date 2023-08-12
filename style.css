@@ -6,34 +6,79 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
-  background-color: rgb(17, 28, 46);
+}
+body {
+  background-image: linear-gradient(
+    to top,
+    #cfabf9,
+    #c7a3f9,
+    #bf9cf9,
+    #b694fa,
+    #ad8dfa
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  width: 50vw;
+  height: 60vh;
+  background-color: rgb(229, 215, 250);
+  border-radius: 25px;
+  padding: 2rem;
+  overflow: hidden;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 3%;
-}
-
-.profile {
-  width: 5rem;
-  border-radius: 50%;
-}
-.header-btn {
-  display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
-button {
-  cursor: pointer;
-  padding: 12%;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
+.heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #7a46f7;
+}
+.inputField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem;
+}
+.inputTask {
   border: none;
-  color: white;
-  background-color: rgb(24, 39, 66);
+  border-radius: 5px;
+  width: 25rem;
+  height: 3rem;
+  padding: 1rem;
+}
+.addTask {
+  border: none;
   font-size: 2rem;
+  color: #4e3291;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+ul li {
+  background-color: #dec1ff;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 1rem;
+  list-style: none;
+  color: #402089;
+  font-size: 1.5rem;
+  font-weight: 600;
 }

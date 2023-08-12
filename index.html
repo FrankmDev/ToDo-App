@@ -13,20 +13,35 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rubik:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="header">
-      <img src="profile.jpg" class="profile" alt="profile-icon" />
-      <div class="header-btns">
-        <button>
-          <ion-icon name="notifications-outline" class="icon"></ion-icon>
-        </button>
-        <button>
-          <ion-icon name="add-outline" class="icon"></ion-icon>
-        </button>
+    <main class="container">
+      <div class="header">
+        <h1 class="heading">ToDo List</h1>
+        <div class="inputField">
+          <input
+            type="text"
+            name="input"
+            id="inputTask"
+            class="inputTask"
+            placeholder="Add new task"
+          />
+          <button class="addTask">
+            <ion-icon name="add-outline"></ion-icon>
+          </button>
+        </div>
       </div>
-    </header>
-    <main class="main"></main>
+      <div class="tasks-container">
+        <ul></ul>
+      </div>
+      <div class="empty"></div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
