@@ -10,4 +10,13 @@ addTask.addEventListener("click", function (e) {
   p.textContent = textInput;
   listItem.appendChild(p);
   list.appendChild(listItem);
+
+  let removeBtn = document.createElement("button");
+  removeBtn.textContent = "X";
+  removeBtn.className = "removeBtn";
+  listItem.appendChild(removeBtn);
+
+  removeBtn.addEventListener("click", function () {
+    list.removeChild(listItem);
+  });
 });
