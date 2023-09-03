@@ -3,7 +3,7 @@ let addTask = document.querySelector(".addTask");
 let list = document.querySelector("ul");
 let empty = document.querySelector(".empty");
 
-addTask.addEventListener("click", function (e) {
+function addTaskToList() {
   const textInput = input.value;
   if (textInput.trim() !== "") {
     const listItem = document.createElement("li");
@@ -20,5 +20,13 @@ addTask.addEventListener("click", function (e) {
     removeBtn.addEventListener("click", function () {
       list.removeChild(listItem);
     });
+  }
+  input.value = "";
+}
+
+addTask.addEventListener("click", addTaskToList);
+input.addEventListener("keyup", function (e) {
+  if (e.key === "Enter") {
+    addTaskToList();
   }
 });
