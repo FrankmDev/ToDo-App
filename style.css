@@ -86,9 +86,7 @@ ul li {
   justify-content: space-between;
   align-items: center;
 }
-li.hidden {
-  display: none;
-}
+
 .removeBtn {
   border: none;
   font-size: 1.5rem;
