@@ -1,4 +1,4 @@
-let input = document.querySelector(".inputTask");
+let input = document.querySelector("#inputTask");
 let addTask = document.querySelector(".addTask");
 let list = document.querySelector("ul");
 let empty = document.querySelector(".empty");
