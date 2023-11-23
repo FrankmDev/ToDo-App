@@ -11,7 +11,7 @@ Esta es un Todo App simple y fácil de usar. Está construida con HTML, CSS y Ja
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local usando `https://github.com/FrankmDev/ToDo-List`
+1. Clona este repositorio en tu máquina local usando `https://github.com/FrankmDev/ToDo-List.git`
 2. Abre `index.html` en tu navegador.
 
 ## Uso
